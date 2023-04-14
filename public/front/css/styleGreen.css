@@ -1,0 +1,216 @@
+
+body{
+
+  overflow-x: hidden !important;
+  
+}
+
+.icon{
+  color: #009688;
+  font-size: 120px;
+}
+
+.recentJob .btn{
+   background-color: #009688;
+}
+.recentJob .btn:hover{
+  background-color: #009688;
+  color: white;
+}
+.services .btn{
+  background-color: #009688;
+}
+.services .btn:hover{
+  background-color: #009688;
+  color: white;
+}
+.Testimonial .color{
+  color: #009688;
+}
+.contact .get{
+  background-color: #009688;
+}
+.other_Services{
+
+  background-image: linear-gradient(#135a5b,#009688);
+}
+.other_Services .icons{
+
+  color: white;
+  font-size: 120px;
+}
+.description{
+
+  margin-top:50px;
+   margin-bottom:-50px;
+}
+.carousel-caption{
+  
+  top:45% !important;
+  transform:translateY(-50%) !important;
+  position: absolute;
+    right: 7%;
+    bottom: 1.25rem;
+    left: 7%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    /* text-align: center */
+}
+
+.hero{
+
+  /* background: url(../img/portfolio/Untitled-5.png); */
+  background-image:linear-gradient(#135a5b,#009688);
+  height: 278px;
+  position: relative;
+  z-index: 99;
+}
+.hero h1{
+
+  color: white;
+  font-size: 70px;
+  margin-top: 120px;
+  text-align: center;
+  z-index: 99;
+  margin-left: 0px;
+}
+
+
+@media screen and (max-width: 1000px){
+
+  .hero h1{
+
+    font-size: 50px;
+    
+  }
+
+}
+
+.background{
+  background: url(../img/portfolio/1122.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: fixed;
+
+}
+.transbox{
+  background-color: #000000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+
+.transbox p{
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+
+.contact .input, .contact .input:focus{
+  background-color:#009688;
+  border:none;
+  border-bottom:1px solid white;
+  color:white;
+}
+.contact .form-control:focus{
+  box-shadow:none;
+}
+
+.img-height{
+  width:100vw;
+  
+}
+
+.navbar-brand{
+  position: absolute;
+  background-color: #fff;
+  flex-direction: column;
+  top:0;
+  align-items: center;
+}
+
+.nav-img{
+  width:60px !important;
+}
+.nav-padding{
+padding-left:30% !important;
+}
+
+.recentJob{
+
+  width: 75%;
+  overflow-x: hidden;
+  margin: auto;
+  padding: auto;
+ 
+}
+figcaption h4{
+
+  text-align: center;
+  margin-top: 70px;
+}
+
+.fig{
+
+background-color:#009688;
+height: 50px;
+margin-top: -10px;
+
+}
+.fig p{
+
+  text-align: center;
+  padding: 5px;
+  line-height: 45px;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-brand {
+    position: inherit;
+    background-color: #fff;
+    flex-direction: row;
+    top:0;
+    align-items: center;
+  
+}
+  .nav-padding{
+    padding-left: 0% !important;
+}
+  .nav-text{
+    padding:10px !important; 
+   
+}
+.img-height{
+  height:450px;
+}
+.img-fluid{
+margin-top: 50% !important;
+}
+
+  }
+
+  @media only screen and (min-width: 767px) {
+    .img-fluid{
+      margin-top: 9px !important;
+      }
+  }
+
+
+.footer{
+ width: 90%;
+
+
+}
+.footer .a{
+  text-decoration: none;
+  color:rgb(64, 64, 64);
+  padding: 10px;
+} 
+.footer a:hover{
+
+  color: #009688;
+
+}
+
